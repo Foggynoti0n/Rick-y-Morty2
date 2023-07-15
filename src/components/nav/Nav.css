@@ -1,0 +1,51 @@
+#header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+   
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    border-bottom: 1px solid azure;
+  position: absolute;  top:0;
+background-color: rgba(0, 0, 0, 0.795);
+   
+}
+
+#buttons{
+    padding: 0;
+    display: flex;
+    width: 50em;
+    align-items: center;
+    justify-content: space-around;
+    background: none;
+   
+}
+
+.btn{
+    border: none;
+    background: none;
+    color: azure;
+    border-bottom: 1px solid azure;
+    height: 3em;
+    padding: 1em;
+   
+     
+}
+
+.btn:hover{
+    background-color:rgba(251, 255, 255, 0.13);
+   border: none;
+   border-radius: 50%;
+ 
+}
+
+input{
+    background-color: black;
+    border: 1px solid azure;
+}

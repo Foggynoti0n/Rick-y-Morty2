@@ -1,0 +1,20 @@
+#detailCard{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    display: flex;
+    position: absolute;
+    top: 130px;
+    background-color: rgba(0, 0, 0, 0.726);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    width: 100%;
+}
+
+
+#content{
+    width: 50%;
+}
+#image{
+    width: 50%;
+}

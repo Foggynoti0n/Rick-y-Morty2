@@ -1,0 +1,16 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+    background-image: url(/src/components/img/bg.jpg);
+background-repeat: repeat;
+background-attachment: fixed;
+}
+
+
+#root{
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
