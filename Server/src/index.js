@@ -4,6 +4,7 @@ const server = express();
 const PORT = 3001;
 
 server.listen(PORT, () => {
+   connect.sync({force:true})
    console.log('Server raised in port: ' + PORT);
 });
 
